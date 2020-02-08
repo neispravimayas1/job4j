@@ -1,13 +1,6 @@
-ru\job4j\Multiple.class
 ru\job4j\calculater\Fit.class
-ru\job4j\Point.class
-ru\job4j\condition\TrgArea.class
-ru\job4j\StudentInfo.class
 ru\job4j\calculator\Size.class
-ru\job4j\Main.class
-ru\job4j\condition\SqArea.class
+ru\job4j\calculater\Git.class
 ru\job4j\calculater\Car.class
 ru\job4j\calculater\Calculator.class
-ru\job4j\condition\Point.class
-ru\job4j\converter\Converter.class
 ru\job4j\calculater\CarUsage.class
