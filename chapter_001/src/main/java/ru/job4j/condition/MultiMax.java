@@ -6,7 +6,7 @@ public class MultiMax {
         return result;
     }
     public int max(int first, int second, int  third) {
-        int temp = max(second,third);
-        return max(first, temp);
+        int temp1 = second>third ? second : third;
+        return first >temp1 ? first : temp1;
           }
 }
