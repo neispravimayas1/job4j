@@ -6,7 +6,7 @@ public class Mortgage {
         percent=percent/100;
         while (amount > 0) {
           double kOplate = amount+(amount*percent);
-          amount=(salary-kOplate)*-1;
+          amount= kOplate-salary;
             year++;
         }
         return year;
