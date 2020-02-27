@@ -14,7 +14,9 @@ public class FindLoopTest {
         int result = find.indexOf(input, value);
         int expect = 0;
         assertThat(result, is(expect));
-    }@Test
+    }
+
+    @Test
     public void whenArrayHas3Then0() {
         FindLoop find = new FindLoop();
         int[] input = new int[] {2, 7, 3};
@@ -22,8 +24,9 @@ public class FindLoopTest {
         int result = find.indexOf(input, value);
         int expect = 2;
         assertThat(result, is(expect));
+    }
 
-    }@Test
+    @Test
     public void whenArrayHas4ThenNo() {
         FindLoop find = new FindLoop();
         int[] input = new int[] {2, 7, 3};
@@ -31,7 +34,5 @@ public class FindLoopTest {
         int result = find.indexOf(input, value);
         int expect = -1;
         assertThat(result, is(expect));
-
     }
-
 }
