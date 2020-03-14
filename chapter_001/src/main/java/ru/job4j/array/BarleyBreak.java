@@ -12,6 +12,5 @@ public class BarleyBreak {
         table [0][2] = 7;
         table [1][2] = 8;
         table [2][2] = 9;
-
     }
 }
