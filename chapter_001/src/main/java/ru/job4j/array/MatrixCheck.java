@@ -16,10 +16,10 @@ public class MatrixCheck {
         boolean result = true;
         for (int i = 0; i < board.length; i++) {
             if (board[i][column] != 'X') {
-                    result = false;
-                }
-                break;
+                result = false;
             }
-                return result;
+            break;
+        }
+        return result;
     }
 }
